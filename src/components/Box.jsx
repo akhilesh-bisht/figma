@@ -4,7 +4,7 @@ import img3 from "./img/3one.png";
 function Box({ heading, img = img3 }) {
   return (
     <div
-      className="w-[340px] h-[300px] relative top-20"
+      className="w-[340px] h-[300px] relative "
       style={{
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.33)), url(${img})`,
         backgroundSize: "cover",

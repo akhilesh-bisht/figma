@@ -4,34 +4,34 @@ import arrow from "./img/up arrow.png";
 
 function Header() {
   return (
-    <div className="flex flex-col items-center scroll-smooth">
+    <div className="flex flex-col items-center scroll-smooth lg:flex lg:justify-between">
       {/* Header Section */}
-      <div className="w-full max-w-[1502px] flex flex-wrap items-center justify-around px-4 md:px-8 py-4">
+      <div className="w-full max-w-full flex flex-wrap items-center justify-around px-4 md:px-8 py-4">
         <div className="flex items-center">
           <img
-            className="w-[150px] sm:w-[200px] md:w-[318px] h-auto"
+            className="w-[150px] sm:w-[200px] md:w-[250px] lg:w-[300px] h-auto"
             src={logo}
             alt="Logo"
           />
         </div>
-        <ul className="flex flex-wrap items-center gap-3 sm:gap-4 text-xs sm:text-sm md:text-base font-semibold text-white ml-3">
+        <ul className="flex flex-wrap items-center gap-3 sm:gap-4 text-xs sm:text-sm md:text-base font-semibold text-white ml-6">
           <li className="text-blue-400 cursor-pointer">Home</li>
-          <li className="cursor-pointer">About Us</li>
-          <span className="hidden md:flex items-center">
+          <li className="cursor-pointer ml-3">About Us</li>
+          <span className="hidden md:flex items-center relative right-[15px] top-[2px]">
             <img src={arrow} alt="Arrow Icon" className="w-4 h-4" />
           </span>
           <li className="cursor-pointer">
             <a href="">Our Service</a>
           </li>
-          <span className="hidden md:flex items-center">
+          <span className="hidden md:flex items-center relative right-[15px] top-[2px]">
             <img src={arrow} alt="Arrow Icon" className="w-4 h-4" />
           </span>
           <li className="cursor-pointer">Cyber Security</li>
-          <span className="hidden md:flex items-center">
+          <span className="hidden md:flex items-center relative right-[15px] top-[2px]">
             <img src={arrow} alt="Arrow Icon" className="w-4 h-4" />
           </span>
           <li className="cursor-pointer">Industries We Serve</li>
-          <span className="hidden md:flex items-center">
+          <span className="hidden md:flex items-center relative right-[15px] top-[2px]">
             <img src={arrow} alt="Arrow Icon" className="w-4 h-4" />
           </span>
           <li className="cursor-pointer">Careers</li>
@@ -40,7 +40,7 @@ function Header() {
       </div>
 
       {/* Hero Section */}
-      <div className="relative w-full max-w-[95%] md:max-w-[1402px] h-auto py-8 md:py-12 px-6 md:px-9 rounded-[4px] border-l-[5px] mt-[81px] border-blue-500 bg-transparent shadow-[inset_5px_0_15px_rgba(59,130,246,0.5) ]">
+      <div className="relative w-full max-w-full h-auto py-8 md:py-12 px-6 md:px-9 rounded-[4px] border-l-[5px] mt-[81px] border-blue-500 bg-transparent shadow-[inset_5px_0_15px_rgba(59,130,246,0.5)] flex justify-center">
         <div className="text-center md:text-left p-4 md:p-9">
           <h1 className="text-2xl sm:text-2xl md:text-3xl font-semibold text-blue-400">
             Certified FedRAMP and StateRAMP 3PAO
