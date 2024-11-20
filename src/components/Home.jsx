@@ -28,7 +28,7 @@ function Home() {
         </div>
 
         {/* First Row */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-8">
+        <div className="flex flex-wrap justify-around  gap-2">
           {/* First Box */}
           <Box heading="IT Change Management Services" img={Img} />
 
@@ -61,14 +61,7 @@ function Home() {
           <Box heading="Project Management" img={img5} />
           <Box heading="Additional Service" img={img6} />
         </div>
-
-        {/* Second Row (for additional containers, if required) */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-8 mt-10">
-          <Box heading="Service A" img={img3} />
-          <Box heading="Service B" img={img4} />
-          <Box heading="Service C" img={img5} />
-          <Box heading="Service D" img={img6} />
-        </div>
+        {/* Second Row (Empty for now) */}
       </div>
     </>
   );

@@ -5,7 +5,7 @@ import bg from "./components/img/bg.jpeg";
 function App() {
   return (
     <>
-      <div className="w-full h-screen scroll-smooth relative">
+      <div className="w-full h-screen sm:h-[67%] scroll-smooth relative">
         <div
           className="w-full h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] xl:h-[730px] max-w-full mx-auto bg-cover bg-center relative"
           style={{
