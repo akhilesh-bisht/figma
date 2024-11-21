@@ -7,7 +7,7 @@ function App() {
     <>
       <div className="w-full h-screen sm:h-[67%] scroll-smooth relative">
         <div
-          className="w-full h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] xl:h-[730px] max-w-full mx-auto bg-cover bg-center relative"
+          className="w-full h-[80%] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] xl:h-[730px] max-w-full mx-auto bg-cover bg-center relative"
           style={{
             backgroundImage: `url(${bg})`,
           }}

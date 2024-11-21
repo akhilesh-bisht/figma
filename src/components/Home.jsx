@@ -28,12 +28,12 @@ function Home() {
         </div>
 
         {/* First Row */}
-        <div className="flex flex-wrap justify-around  gap-2">
+        <div className="flex flex-wrap justify-between lg:m-auto  gap-2">
           {/* First Box */}
           <Box heading="IT Change Management Services" img={Img} />
 
           {/* Center Box (Styled to Match Other Boxes) */}
-          <div className=" bg-[rgba(239,239,241,1)] text-center rounded w-[750px] shadow-lg p-4 flex flex-col items-center">
+          <div className=" bg-[rgba(239,239,241,1)] text-center rounded w-[684px] shadow-lg p-4 flex flex-col items-center">
             <h1 className="font-normal text-blue-400 mt-5">Services</h1>
             <h1 className="text-xl md:text-2xl leading-9 font-bold mt-3">
               IT Governance Services
